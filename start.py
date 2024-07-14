@@ -57,9 +57,9 @@ def deanonymize(ip, telegram_username):
     }
 
 # Example usage
-ip = "127.0.0.1"
-telegram_username = "johndoe"
-passport_number = "1234567890"
-phone_number = "+1234567890"
+ip = "91.239.160.127"
+telegram_username = "none"
+passport_number = "none"
+phone_number = "none"
 result = deanonymize(ip, telegram_username, passport_number, phone_number)
 print(result)
